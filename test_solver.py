@@ -1,3 +1,3 @@
-from diffusion2d import solve
+from diffusion2d import diffusion2d
 
-solve(dx=0.2, dy=0.2, D=4.0)
+diffusion2d.solve()
